@@ -1,16 +1,17 @@
-## Hi there 👋
+#DsrsecuretechDev
 
-<!--
-**dsrsecuretechDev/dsrsecuretechDev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## HOW TO SETUP THIS BACKEND APP LOCALLY
 
-Here are some ideas to get you started:
+To run this application locally, follow these steps:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. **Clone the Repository**: Clone this repository to your local machine
+
+2. **Install Dependencies**: Navigate into the cloned repository directory and install the dependencies using npmcd :projectOne
+   npm install
+
+3. **Set Environment Variables**: Create a `.env` file in the root directory and define the required environment variables. Here's an example of the required variables:
+
+PORT=3000
+MONGODB_URI="mongodb://127.0.0.1:27017"
+
+4.**Run the Application**: Start the application by running the following command: npm run dev
