@@ -5,9 +5,11 @@
 To run this application locally, follow these steps:
 
 1. **Clone the Repository**: Clone this repository to your local machine
+   git clone https://github.com/dsrsecuretechDev
 
-2. **Install Dependencies**: Navigate into the cloned repository directory and install the dependencies using npmcd :projectOne
-   npm install
+2. **Install Dependencies**: Navigate into the cloned repository directory and install the dependencies using:
+   `cd dsrsecuretechDev`
+   `npm install`
 
 3. **Set Environment Variables**: Create a `.env` file in the root directory and define the required environment variables. Here's an example of the required variables:
 
